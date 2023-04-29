@@ -1,0 +1,44 @@
+#index:
+#    path: /
+#    controller: App\Controller\DefaultController::index
+# config/routes.yaml
+
+users_list:
+    path: /users/
+    controller: App\Controller\UserController::list
+    methods: [GET]
+
+users_create:
+    path: /users/
+    controller: App\Controller\UserController::create
+    methods: [POST]
+
+users_get:
+    path: /users/{id}/
+    controller: App\Controller\UserController::get
+    methods: [GET]
+
+users_update:
+    path: /users/{id}/
+    controller: App\Controller\UserController::update
+    methods: [PUT]
+
+groups_list:
+    path: /groups/
+    controller: App\Controller\GroupController::list
+    methods: [GET]
+
+groups_create:
+    path: /groups/
+    controller: App\Controller\GroupController::create
+    methods: [POST]
+
+groups_get:
+    path: /groups/{id}/
+    controller: App\Controller\GroupController::get
+    methods: [GET]
+
+groups_update:
+    path: /groups/{id}/
+    controller: App\Controller\GroupController::update
+    methods: [PUT]
